@@ -11,6 +11,11 @@ public class GithubCicdActionsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome() {
+		return "welcome Jenkins";
+	}
+
+	@GetMapping("/hello")
+	public String hello() {
 		return "Hello Jenkins";
 	}
 
